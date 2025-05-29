@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body  bgcolor="pink">
+    <form action="">
+        <table>
+            <fieldset>
+                <legend>SMIT</legend>
+
+                <input type="hidden" name="smit" id="smit">
+                <input type="search" name="searchBar" ><br>
+                <label for="userName">User Name</label>
+                <input type="text" name="userName" id="userName" required>
+                <label for="link">Enter a url of google</label>
+                <input type="url" id="link" name="googleLink">
+                <p>
+                    Courses: <br>
+                    <input type="radio" id="WMA" name="course" value="WMA">
+                    <label for="WMA">Modern Web & App </label>
+                    <input type="radio" id="GD" name="course" value="GD">
+                    <label for="GD">Graphic Designing</label>
+                    <input type="radio" id="" name="course" value="TK">Techno Kids
+                </p>
+                <p>
+                    Select your city:
+                    <select name="city" multiple>
+                        <option value="" disabled>Click here</option>
+                        <option value="khi">Karachi</option>
+                        <option value="hyd">Hyderabad</option>
+                        <option value="lhr">Lahore</option>
+                        <option value="mul">Multan</option>
+                        <option value="swt">Sawat</option>
+                    </select>
+                </p>
+                <input type="file" multiple>
+                <input type="submit">
+                <button type="submit">Submit</button>
+            </fieldset>
+        </table>
+    </form>
+</body>
+
+</html>
